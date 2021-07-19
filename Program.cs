@@ -18,7 +18,9 @@ namespace myList
                 userInput = Console.ReadLine();
                 int result;
                 if (int.TryParse(userInput, out result))
+                {
                     numbers.Add(result);
+                }
                 else
                 {
                     if (userInput == "exit")
