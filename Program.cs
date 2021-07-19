@@ -24,7 +24,9 @@ namespace myList
                 else
                 {
                     if (userInput == "exit")
+                    {
                         isExit=true;
+                    }
                     else if (userInput == "sum")
                     {
                         int sum = 0;
